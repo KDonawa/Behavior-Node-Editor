@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KD.BehaviorEditor.States
+namespace KD.BehaviorEditor
 {
     public abstract class Condition : ScriptableObject
     {

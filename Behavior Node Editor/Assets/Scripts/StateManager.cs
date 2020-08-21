@@ -2,11 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KD.BehaviorEditor.States
+namespace KD.BehaviorEditor
 {
     public class StateManager : MonoBehaviour
     {
-        public State currentStae;
+        public static StateManager _instance;
+        
+        State _currentState;
+
+
+        private void Awake()
+        {
+            
+        }
     }
 }
 

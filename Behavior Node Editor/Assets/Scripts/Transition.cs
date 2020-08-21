@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KD.BehaviorEditor.States
+namespace KD.BehaviorEditor
 {
+    [System.Serializable]
     public class Transition
     {
         public Condition condition;
-        //public State targetState;
-        public bool disable;
     }
 }
 

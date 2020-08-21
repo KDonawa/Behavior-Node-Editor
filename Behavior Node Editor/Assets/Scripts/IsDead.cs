@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KD.BehaviorEditor.States
+namespace KD.BehaviorEditor
 {
     public class IsDead : Condition
     {
