@@ -1,9 +1,8 @@
-﻿using KD.BehaviorEditor.Nodes;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KD.BehaviorEditor
+namespace KD.StateMachine
 {
     [CreateAssetMenu]
     public class State : ScriptableObject
@@ -12,9 +11,9 @@ namespace KD.BehaviorEditor
         [SerializeField] Action[] onStateEnter = null;
         [SerializeField] Action[] onStateExit = null;
 
-        [SerializeField] List<Transition> transitions = null;
+        //[SerializeField] List<Transition> transitions = null;
 
-        public List<Transition> Transitions => transitions;
+        //public List<Transition> Transitions => transitions;
 
         public void Tick()
         {

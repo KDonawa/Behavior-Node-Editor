@@ -12,11 +12,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32b5734ec5af1854ea509d39563d39d7, type: 3}
   m_Name: Graph1
   m_EditorClassIdentifier: 
+  isChanged: 0
   stateNodeDataList:
-  - stateNodePosition: {x: 31, y: 39}
+  - graphNodeData:
+      id: 0
+      position: {x: 26, y: 55}
     state: {fileID: 11400000, guid: cc6a91410ec1fbb44840c244d84d1912, type: 2}
-    transitionNodePositions:
-    - {x: 280, y: 38}
-    - {x: 272, y: 107}
-    - {x: 265, y: 191}
+    isCollapsed: 0
+  - graphNodeData:
+      id: 1
+      position: {x: 530, y: 220}
+    state: {fileID: 0}
+    isCollapsed: 0
+  - graphNodeData:
+      id: 2
+      position: {x: 509, y: 48}
+    state: {fileID: 0}
+    isCollapsed: 0
+  transitionNodeDataList:
+  - graphNodeData:
+      id: 4
+      position: {x: 256, y: 60}
+    condition: {fileID: 0}
+    startNodeData:
+      id: 0
+      position: {x: 26, y: 55}
+    endNodeData:
+      id: 2
+      position: {x: 509, y: 48}
+  - graphNodeData:
+      id: 5
+      position: {x: 256, y: 110}
+    condition: {fileID: 0}
+    startNodeData:
+      id: 0
+      position: {x: 26, y: 55}
+    endNodeData:
+      id: 3
+      position: {x: 565, y: 145}
+  - graphNodeData:
+      id: 6
+      position: {x: 256, y: 160}
+    condition: {fileID: 0}
+    startNodeData:
+      id: 0
+      position: {x: 26, y: 55}
+    endNodeData:
+      id: 1
+      position: {x: 530, y: 220}
+  - graphNodeData:
+      id: 7
+      position: {x: 256, y: 210}
+    condition: {fileID: 0}
+    startNodeData:
+      id: 0
+      position: {x: 26, y: 55}
+    endNodeData:
+      id: 2
+      position: {x: 509, y: 48}
+  - graphNodeData:
+      id: 8
+      position: {x: 256, y: 260}
+    condition: {fileID: 0}
+    startNodeData:
+      id: 0
+      position: {x: 26, y: 55}
+    endNodeData:
+      id: -1
+      position: {x: 0, y: 0}
+  portalNodeDataList:
+  - graphNodeData:
+      id: 3
+      position: {x: 565, y: 145}
+    state: {fileID: 0}
   commentNodeDataList: []
